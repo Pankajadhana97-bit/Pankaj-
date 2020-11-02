@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 /*
 Pankaj Adhana
-swami sarvanand giri regional center;
 Panjab university;
 */
 
@@ -15,28 +14,9 @@ Panjab university;
 using namespace std; 
 void solve()
 {
-    int n;
-    cin>>n;
-    int arr[n][n];
-    for (int i = 0; i < n; ++i)
-    {
-        for (int j = 0; j < n; ++j)
-        {
-            if(i>=j)
-                arr[i][j]=0;
-            else
-               cin>>arr[i][j];
-        }
-    }
-    for (int i = 0; i < n; ++i)
-    {
-        for (int j = 0; j < n; ++j)
-        {
-            cout<<arr[i][j]<<" ";
-        }
-        cout<<endl;
-    }
- }
+/*code goes here*/
+	
+}
 int main() 
 { 
     fast_io;
